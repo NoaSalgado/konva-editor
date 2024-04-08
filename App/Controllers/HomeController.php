@@ -1,7 +1,9 @@
 <?php
 
-declare(strict_types=1);
-
 class HomeController
 {
+    public function loadHome()
+    {
+        require __DIR__ . "/../views/home.php";
+    }
 }

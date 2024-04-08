@@ -1,7 +1,14 @@
 <?php
 
-declare(strict_types=1);
-
 class AuthController
 {
+    public function loadLogin()
+    {
+        require __DIR__ . "/../views/login.php";
+    }
+
+    public function loadRegister()
+    {
+        require __DIR__ . "/../views/register.php";
+    }
 }
