@@ -1,6 +1,6 @@
-init();
+import buildEditor from './editor.js';
 
-function init() {
+(function init() {
   $.ajax({
     url: 'App/index.php',
     method: 'GET',
@@ -10,7 +10,7 @@ function init() {
       isAuthenticated ? loadHome() : loadLoginForm();
     },
   });
-}
+})();
 
 function loadLoginForm() {
   $.ajax({
@@ -43,6 +43,7 @@ function loadHome() {
     data: { action: 'loadHome' },
     success: function (response) {
       $('#content').html(response);
+      buildEditor();
     },
   });
 }

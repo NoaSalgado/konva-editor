@@ -9,7 +9,7 @@
   --color-secondary: ##d4eaf7;
   --color-accent: #00668c;
   --color-white: #fffefb;
-  --color-text: #1d1c1c;
+  --color-text: #3b3c3d;
 }
 
 body {
@@ -100,4 +100,26 @@ a {
   color: var(--color-white);
   font-size: 1.2rem;
   padding: 1rem 0.5rem;
+}
+
+.editor-btns {
+  margin-bottom: 2rem;
+
+  display: flex;
+  justify-content: center;
+  column-gap: 2rem;
+}
+
+.editor-btn {
+  background-color: var(--color-accent);
+  border: none;
+  border-radius: 0.5rem;
+  color: var(--color-white);
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.editor {
+  border: 5px solid #cccbc8;
 }
