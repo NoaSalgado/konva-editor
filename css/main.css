@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+.error {
+  color: red;
+}
+
 .header {
   background-color: var(--color-accent);
   color: var(--color-white);
