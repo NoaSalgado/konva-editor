@@ -7,10 +7,11 @@ class Database
     public PDO $conn;
     public function __construct()
     {
-        $dsn = "mysql:host=localhost;port=3306";
+        $dbConfig = require __DIR__ . '/db-config.php';
+        $dsn = "{$dbConfig['driver']}:host={$dbConfig['host']};port={$dbConfig['port']}";
 
         try {
-            $this->conn = new PDO($dsn, 'root', '');
+            $this->conn = new PDO($dsn, "{$dbConfig['username']}", "{$dbConfig['password']}");
             $this->conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         } catch (PDOException $e) {
             die("Database connection failed: " . $e->getMessage());
