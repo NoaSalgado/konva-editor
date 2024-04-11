@@ -19,8 +19,8 @@ class User
         $sql = "INSERT INTO users (name, email, password) VALUES(:name, :email, :password)";
         $params = [
             'name' => $user['username'],
-            'email' => password_hash($user['email'], PASSWORD_BCRYPT),
-            'password' => $user['password']
+            'email' => $user['email'],
+            'password' => password_hash($user['password'], PASSWORD_BCRYPT)
         ];
 
         $this->db->query($sql, $params);

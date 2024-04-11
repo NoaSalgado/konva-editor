@@ -21,7 +21,7 @@
 
         <div>
             <label for="confirm-password"> Confirmar Password:</label>
-            <input type="confirm-password" name="confirm-password" id="password" required>
+            <input type="password" name="confirm-password" id="password" required>
             <p class="error" data-error="confirm-password"></p>
         </div>
 

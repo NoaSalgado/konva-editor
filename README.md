@@ -2,7 +2,7 @@
 
 ## Instalación
 
-- Abrir una terminal en el directorio correspondiente del entorno utilizado :
+- Abrir una terminal en el directorio correspondiente según el entorno utilizado :
 
   - `C:\xampp\htdocs` (XAMPP)
   - `C:\laragon\www` (Laragon)
@@ -27,8 +27,8 @@ Si es necesario, pueden modificarse los datos de conexión en el archivo App/DB/
 
 - Acceder a la aplicación a través de la url `http://localhost/konva-editor`
 - Registrar un nuevo usuario o bien loguearse con el usuario de prueba:
-  - Email: demouser@demo.com
-  - Password: 123456
+  - **Email**: demouser@demo.com
+  - **Password**: 123456
 - Edición de texto:
-  - Aplicar negria: click sobre el texto deseado
-  - Introducir/Modificar texto: doble click sobre el texto a editar
+  - **Aplicar negrita**: click sobre el texto deseado
+  - **Introducir/Modificar texto**: doble click sobre el texto a editar
