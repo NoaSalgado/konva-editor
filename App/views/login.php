@@ -13,7 +13,7 @@
         </div>
 
         <div>
-            <button type="submit" class="btn-submit">Login</button>
+            <button type="submit" class="btn btn-submit">Login</button>
             <p>¿No tienes cuenta? <a href="#" data-link="register">Regístrate</a></p>
         </div>
     </form>

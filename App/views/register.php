@@ -26,7 +26,7 @@
         </div>
 
         <div>
-            <button type="submit" class="btn-submit">Registrar</button>
+            <button type="submit" class="btn btn-submit">Registrar</button>
             <p>¿Tienes una cuenta? <a href="#" data-link="login">Inicia sesión</a></p>
         </div>
     </form>

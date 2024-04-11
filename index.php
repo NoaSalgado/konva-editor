@@ -25,16 +25,16 @@ session_start();
 <body>
     <header class="header">
         <h1 class="logo">Konva Editor</h1>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#" class="nav__link" data-link="login">Login</a>
+        <nav>
+            <ul class="nav-list">
+                <li>
+                    <a href="#" class="nav-link" data-link="login">Login</a>
                 </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link" data-link="register">Registro</a>
+                <li>
+                    <a href="#" class="nav-link" data-link="register">Registro</a>
                 </li>
-                <li class="nav__item">
-                    <a href="#" class="nav__link" data-link="logout">Cerrar Sesión</a>
+                <li>
+                    <a href="#" class="nav-link" data-link="logout">Cerrar Sesión</a>
                 </li>
             </ul>
         </nav>
